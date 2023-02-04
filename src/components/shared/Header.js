@@ -14,6 +14,7 @@ function Header() {
                 <Nav className='me-auto'>
                 {/* <Nav.Link href="/">Home</Nav.Link> */}
                 <Nav.Link style={{color: "white"}} href="/projects">Portfolio</Nav.Link>
+                <Nav.Link style={{color: "white"}} href="/about">About</Nav.Link>
                 <Nav.Link style={{color: "white"}} href="/experience">Experience</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

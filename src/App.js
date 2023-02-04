@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import IndexProjects from './components/projects/IndexProjects';
 import ShowProject from './components/projects/ShowProject';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import About from './components/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path='/projects' element={<IndexProjects />} />
         <Route path='/project/:id' element={<ShowProject />} />
         <Route path='/experience' element={<Experience />} />
