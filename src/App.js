@@ -7,10 +7,12 @@ import Home from './components/Home';
 import Experience from './components/Experience';
 import IndexProjects from './components/projects/IndexProjects';
 import ShowProject from './components/projects/ShowProject';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
+      <div>
       <Router>
         <Header />
         <Routes>
@@ -20,6 +22,7 @@ function App() {
         <Route path='/experience' element={<Experience />} />
         </Routes>
       </Router>
+      </div>
     </div>
   );
 }
