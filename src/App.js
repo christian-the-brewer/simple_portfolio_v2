@@ -23,6 +23,7 @@ function App() {
         <Route path='/project/:id' element={<ShowProject />} />
         <Route path='/experience' element={<Experience />} />
         </Routes>
+        <Footer />
       </Router>
       </div>
     </div>
