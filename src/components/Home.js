@@ -6,8 +6,8 @@ import { Skills } from '../skills';
 
 function Home() {
   return (
-    <Container className='home'>
-        <div>
+    <Container className='home' id='home'>
+        <div className='skills_carousel'>
             <Carousel
             slide={false}
             indicators={false}

@@ -4,7 +4,7 @@ import "../styles/About.css"
 
 function About() {
   return (
-    <Container className='about'>
+    <Container className='about' id='about'>
         <p><span style={{color: "green"}}>christian@thecodebrewer</span>:<span style={{color: "steelblue"}}>~/homepage/about</span>$ cat about.txt</p>
         <p>Hello! I am Christian Brewer, a programmer and muscican from Boston, Massachusetts</p>
         <p>I have always been fascinated by technology, and that interst has driven me to take apart and repair all sorts of mechanical and electronic things; everything from motorcycles to vintage sewing machines, modding gameboys and repairing electronics, to creating websites, games, and useful computer programs.</p>

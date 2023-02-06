@@ -1,16 +1,30 @@
 .home {
-    font-family: "Arial", sans-serif;
-    
-    
+  font-family: "Arial", sans-serif;
 }
 
+
 .skills {
-    padding-top: 10%;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 3em;
+  padding-top: 2em;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 3em;
+ 
 }
 
 h2 {
+  padding-top: 30%;
+  text-align: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    padding-top: 10%;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 5vw;
+  }
+
+  h2 {
     padding-top: 20%;
     text-align: left;
+  }
 }
