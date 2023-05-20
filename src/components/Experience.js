@@ -16,16 +16,16 @@ function Experience() {
         >
         <VerticalTimelineElement
         contentArrowStyle={ {display: "none"}}
-        contentStyle={{ background: 'black', color: 'white' }} className='vertical-timeline-element-education' date='June 2017 - Present'
+        contentStyle={{ background: 'black', color: 'white', boxShadow: "none" }} className='vertical-timeline-element-education' date='June 2017 - Present'
             iconStyle={{background: "black", color: "#fff"}}
             icon={<IoMdSchool  />}
             >
                 <h3>Micro Center Sales</h3>
-                <p>Provide technology expertise for harhware and software sales</p>
+                <p>Provide technology expertise for hardware and software sales</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             contentArrowStyle={ {display: "none"}}
-            contentStyle={{ background: 'black', color: 'white' }}className='vertical-timeline-element-education' date='June 2022'
+            contentStyle={{ background: 'black', color: 'white', boxShadow: "none" }}className='vertical-timeline-element-education' date='June 2022'
             iconStyle={{background: "black", color: "#fff"}}
             icon={<IoMdSchool />}
             >
@@ -34,7 +34,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             contentArrowStyle={ {display: "none"}}
-            contentStyle={{ background: 'black', color: 'white' }}className='vertical-timeline-element-education' date='June - August 2022'
+            contentStyle={{ background: 'black', color: 'white', boxShadow: "none" }}className='vertical-timeline-element-education' date='June - August 2022'
             iconStyle={{background: "black", color: "#fff"}}
             icon={<IoMdSchool />}
             >
@@ -43,7 +43,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             contentArrowStyle={ {display: "none"}}
-            contentStyle={{ background: 'black', color: 'white' }}className='vertical-timeline-element-education' date='September 2022'
+            contentStyle={{ background: 'black', color: 'white', boxShadow: "none" }}className='vertical-timeline-element-education' date='September 2022'
             iconStyle={{background: "black", color: "#fff"}}
             icon={<IoMdSchool />}
             >
@@ -52,9 +52,9 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             contentArrowStyle={ {display: "none"}}
-            contentStyle={{ background: 'black', color: 'white' }}className='vertical-timeline-element-education'
+            contentStyle={{ background: 'black', color: 'white', boxShadow: "none" }}className='vertical-timeline-element-education'
             // date={`${currentDay}/${currentMonth}/${currentYear}`}
-            date='today'
+            date='Today'
             iconStyle={{background: "black", color: "#fff"}}
             icon={<IoMdSchool />}
             >

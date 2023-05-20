@@ -26,7 +26,7 @@ function Header() {
                 <Nav.Link
                 onClick={() => scroller.scrollTo("projects", {
                     smooth: true,
-                    offset: -70,
+                    offset: 200,
                     duration: 500,
                 })}
                 style={{color: "white"}}
@@ -35,22 +35,29 @@ function Header() {
                 <Nav.Link 
                 onClick={() => scroller.scrollTo("about", {
                     smooth: true,
-                    offset: -70,
+                    offset: 100,
                     duration: 500,
                 })}
                 style={{color: "white"}} 
                 // href="/about"
                 >About</Nav.Link>
                 <Nav.Link
-                onClick={() => scroller.scrollTo("about", {
+                onClick={() => scroller.scrollTo("experience", {
                     smooth: true,
-                    offset: -70,
+                    offset: 150,
                     duration: 500,
                 })}
                 style={{color: "white"}}
                 // href="/experience"
                  >Experience</Nav.Link>
+            
                 </Nav>
+                <Navbar.Text>
+                    <a href='christian_brewer_cv_feb_2023.pdf'
+                    download="Christian Brewer Resume">
+                        Resume
+                    </a>
+                </Navbar.Text>
             </Navbar.Collapse>
         </Container>
     </Navbar>

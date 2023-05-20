@@ -23,10 +23,9 @@ function App() {
         <Route path='/project/:id' element={<ShowProject />} />
         <Route path='/experience' element={<Experience />} />
         </Routes>
-        <About
-        name="About"
-        />
+        <About/>
         <Experience />
+        <IndexProjects />
         <Footer />
       </Router>
       </div>

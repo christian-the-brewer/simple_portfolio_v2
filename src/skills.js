@@ -3,12 +3,15 @@ export const Skills = [
     "db.employees.insertOne({name: 'Christian'})",
     "Express",
     "Node",
-    "Rust",
+    "python",
+    // "C++",
     "Bootstrap",
-    "SQL",
+    "react",
+    // "SQL",
     "def hire_christian(salary)",
     "df = pd.read_csv('christian.csv')",
-    "NumPy",
-    "git add christian.js"
+    // "NumPy",
+    "git add christian.js",
+    "github"
 
 ]
